@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 650px;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 0.5rem;
+    box-shadow: .3rem .7rem 1rem rgba(0,0,0, 0.35); 
+}
+
+.inizio {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
+    width: 360px;
+    height: 580px;
+    justify-content:flex-start;       
+}
+
+.image {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    width: 22.55rem;
+    height: 15rem;
+}
+
+.tit {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content:flex-start;
+}
+
+.tit h3 {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.tit p {
+    margin: 0;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.paragrafo {
+    display: grid;
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 1rem;
+    justify-content:flex-start;
+}
+
+.paragrafi:nth-child(3) {
+    border-bottom: 1px solid black;
+
+}
+
+.menu-link {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin: 0;
+    padding-top: 2rem;
+  
+}
+
+.link1{
+    padding-right: 4rem;
+    padding-left: 1rem;
+}
+
+.link2 {
+    padding-left: 4rem;
+}
+
